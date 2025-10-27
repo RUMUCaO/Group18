@@ -1,0 +1,6 @@
+# Tested with Python 3.10+
+# You will run these with spark-submit, not plain python, e.g.:
+#   spark-submit --driver-memory 4g Src/main.py --method 2 --input Data/synthetic_R.csv --queries Data/synthetic_Q.csv --threshold 500 --output Data/results/method2_output.csv
+pyspark>=3.4
+numpy>=1.24
+pandas>=2.0
